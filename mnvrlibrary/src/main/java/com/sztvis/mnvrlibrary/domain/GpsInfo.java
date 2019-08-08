@@ -106,7 +106,7 @@ public class GpsInfo extends DataBase {
 
     }
 
-    public int parseBody2(byte[] message){
+    public int parseBody2(byte[] message) {
         String nmea = new String(ByteUtil.subBytes(message, 6, message.length - 10));
         if (nmea.indexOf("$GNRMC") > -1 || nmea.indexOf("$GNGGA") > -1) {
             Log.d("mnvrlibrary-nmea", nmea);
@@ -145,7 +145,7 @@ public class GpsInfo extends DataBase {
                     this.setLathemisphere(bodys[4].equals("N") ? 1 : 2);
                 }
                 if (bodys[0].equals("$GNGGA")) {
-                    this.setAititude(Double.valueOf(bodys[9]));
+                    this.setAititude(Double.valueOf(bodys[9].equals("") ? "0" : bodys[9]));
                 }
             }
             Msdk.gpsList.clear();
