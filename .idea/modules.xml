@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MnvrSDK.iml" filepath="$PROJECT_DIR$/MnvrSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MnvrSDK.iml" filepath="$PROJECT_DIR$/MnvrSDK.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mnvrlibrary/mnvrlibrary.iml" filepath="$PROJECT_DIR$/mnvrlibrary/mnvrlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/mnvrlibrary/mnvrlibrary.iml" filepath="$PROJECT_DIR$/mnvrlibrary/mnvrlibrary.iml" />
     </modules>
   </component>
